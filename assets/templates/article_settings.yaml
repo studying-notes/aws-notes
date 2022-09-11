@@ -1,0 +1,5 @@
+tags: [ "aws", "{tag}" ]  # 标签
+categories: [ "AWS 学习笔记" ]  # 分类
+
+toc: true  # 目录
+draft: true  # 草稿
