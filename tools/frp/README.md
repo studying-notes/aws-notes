@@ -90,7 +90,8 @@ After=network.target
 
 [Service]
 Type=simple
-User=nobody
+# nobody 无法绑定 1024 以下端口
+# User=nobody
 Restart=on-failure
 RestartSec=5s
 ExecStart=/usr/bin/frps -c /etc/frp/frps.ini
